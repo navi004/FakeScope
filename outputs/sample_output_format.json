@@ -1,0 +1,45 @@
+{
+  "bot_probability": 99.9,
+  "authenticity_score": 0.1,
+  "verdict": "BOT DETECTED",
+  "anomaly_explanation": [
+    {
+      "group": "\ud83c\udf10 Network",
+      "feature": "Total followers count",
+      "value": "18",
+      "bot_push": 5.51,
+      "explanation": "Total followers count = 18 (high value is a bot signal, pushed prediction +5.51% toward bot)"
+    },
+    {
+      "group": "\ud83c\udf10 Network",
+      "feature": "Likes given per tweet posted",
+      "value": "4.95",
+      "bot_push": 4.86,
+      "explanation": "Likes given per tweet posted = 4.95 (low value is a bot signal, pushed prediction +4.86% toward bot)"
+    },
+    {
+      "group": "\ud83d\udca5 Burst",
+      "feature": "Likes given per day",
+      "value": "0.13",
+      "bot_push": 4.49,
+      "explanation": "Likes given per day = 0.13 (low value is a bot signal, pushed prediction +4.49% toward bot)"
+    },
+    {
+      "group": "\ud83d\udca5 Burst",
+      "feature": "Total likes given by account",
+      "value": "480",
+      "bot_push": 4.18,
+      "explanation": "Total likes given by account = 480 (low value is a bot signal, pushed prediction +4.18% toward bot)"
+    },
+    {
+      "group": "\ud83c\udf10 Network",
+      "feature": "Followers \u00f7 Following ratio",
+      "value": "18",
+      "bot_push": 3.29,
+      "explanation": "Followers \u00f7 Following ratio = 18 (low value is a bot signal, pushed prediction +3.29% toward bot)"
+    }
+  ],
+  "human_signals": [],
+  "top_bot_feature": "followers_count",
+  "top_bot_contribution": 5.51
+}
